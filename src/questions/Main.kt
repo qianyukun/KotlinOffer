@@ -1,7 +1,7 @@
 package questions
 
 fun main(args: Array<String>) {
-    printLinkedListBackDirection()
+    testTwoStackPlayAsQueue()
 }
 
 
