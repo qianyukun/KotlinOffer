@@ -1,7 +1,7 @@
 package questions
 
 fun main(args: Array<String>) {
-    printNbitsNum(10)
+    GetKthNodeInLinkedList().test()
 }
 
 

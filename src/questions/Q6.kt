@@ -10,10 +10,6 @@ fun rebuildbinTree() {
     preOrderPrint(root)
 }
 
-class TreeNode constructor(var data: Int, var leftNode: TreeNode?, var rightNode: TreeNode?) {
-    constructor(data: Int) : this(data, null, null)
-}
-
 /**
  * preOrder copied:【root+left+right】
  * inOrder copied:【left+root+right】

@@ -1,10 +1,8 @@
 package questions
 
 //O(1)时间删除链表节点
-class ListNode constructor(var next: ListNode?,var value:Int)
-
-fun deleteNode(h: ListNode?, deleteListNode: ListNode?) :ListNode?{
-    var head:ListNode? = h
+fun deleteNode(h: SingleNode<Int>?, deleteListNode: SingleNode<Int>?) :SingleNode<Int>?{
+    var head:SingleNode<Int>? = h
     var deleteNode = deleteListNode
     if (head == null)
         return null
